@@ -15,7 +15,7 @@ stages:
 - stage: Build
   displayName: Jenkins image
   jobs:
-  - job: VMImage-Build
+  - job: VMImage_Build
     displayName: Setting up VM Ubuntu image
     pool:
       vmImage: ubuntu-latest
